@@ -1,0 +1,19 @@
+.keys_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 10px;
+  padding: 30px;
+  gap: 15px;
+}
+
+.keypad1 {
+  background-color: var(--bg2-1);
+}
+
+.keypad2 {
+  background-color: var(--bg2-2);
+}
+
+.keypad3 {
+  background-color: var(--bg2-3);
+}

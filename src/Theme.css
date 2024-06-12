@@ -1,0 +1,71 @@
+.theme_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.theme_container > h1 {
+  font-size: 0.9rem;
+}
+
+.labelswitch_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.label {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switch {
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ball {
+  border-radius: 50%;
+  background-color: red;
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+.space {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.switchbg1 {
+  background-color: var(--bg2-1);
+}
+
+.switchbg2 {
+  background-color: var(--bg2-2);
+}
+
+.switchbg3 {
+  background-color: var(--bg2-3);
+}
+
+.ball1 {
+  background-color: var(--k3-1);
+}
+
+.ball2 {
+  background-color: var(--k3-2);
+}
+
+.ball3 {
+  background-color: var(--k3-3);
+}

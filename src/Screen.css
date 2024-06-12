@@ -1,0 +1,27 @@
+.screen {
+  height: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 35px 0 20px 0;
+  position: relative;
+}
+
+.screen1 {
+  background-color: var(--bg3-1);
+  color: var(--t2-1);
+}
+
+.screen2 {
+  background-color: var(--bg3-2);
+  color: var(--t1-2);
+}
+
+.screen3 {
+  background-color: var(--bg2-3);
+  color: var(--t1-3);
+}

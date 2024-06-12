@@ -1,0 +1,100 @@
+.key_container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.key {
+  padding: 20px 0;
+  width: 100%;
+  height: 93%;
+  display: grid;
+  place-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.key1 {
+  background-color: var(--k6-1);
+}
+.key1 > .keyfront {
+  background-color: var(--k5-1);
+  color: var(--t1-1);
+}
+
+.key2 {
+  background-color: var(--k6-2);
+}
+.key2 > .keyfront {
+  background-color: var(--k5-2);
+  color: var(--t1-2);
+}
+
+.key3 {
+  background-color: var(--k6-3);
+}
+.key3 > .keyfront {
+  background-color: var(--k5-3);
+  color: var(--t1-3);
+}
+
+.accentkey1-1 {
+  background-color: var(--k2-1);
+}
+.accentkey1-1 > .keyfront {
+  background-color: var(--k1-1);
+  color: var(--t2-1);
+}
+
+.accentkey1-2 {
+  background-color: var(--k2-2);
+}
+.accentkey1-2 > .keyfront {
+  background-color: var(--k1-2);
+  color: var(--t2-2);
+}
+
+.accentkey1-3 {
+  background-color: var(--k2-3);
+}
+.accentkey1-3 > .keyfront {
+  background-color: var(--k1-3);
+  color: var(--t3-3);
+}
+
+.accentkey2-1 {
+  background-color: var(--k4-1);
+}
+.accentkey2-1 > .keyfront {
+  background-color: var(--k3-1);
+  color: var(--t2-1);
+}
+
+.accentkey2-2 {
+  background-color: var(--k4-2);
+}
+.accentkey2-2 > .keyfront {
+  background-color: var(--k3-2);
+  color: var(--t2-2);
+}
+
+.accentkey2-3 {
+  background-color: var(--k4-3);
+}
+.accentkey2-3 > .keyfront {
+  background-color: var(--k3-3);
+  color: var(--t2-3);
+}
+
+.resetBtnclass {
+  grid-column: 1/3;
+}
+
+.equalBtnclass {
+  grid-column: 3/5;
+}
+
+.mediumtext {
+  font-size: 28px;
+}
